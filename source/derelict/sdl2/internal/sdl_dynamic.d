@@ -687,9 +687,6 @@ __gshared {
     da_SDL_GetBasePath SDL_GetBasePath;
     da_SDL_GetPrefPath SDL_GetPrefPath;
 
-    da_SDL_GetBasePath SDL_GetBasePath;
-    da_SDL_GetPrefPath SDL_GetPrefPath;
-
     da_SDL_GameControllerAddMappingsFromRW SDL_GameControllerAddMappingsFromRW;
     da_SDL_GameControllerAddMapping SDL_GameControllerAddMapping;
     da_SDL_GameControllerNumMappings SDL_GameControllerNumMappings;
