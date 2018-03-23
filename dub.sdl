@@ -1,4 +1,4 @@
-name "derelict-sdl2"
+name "pp-derelict-sdl2"
 description "Dynamic bindings to SDL2, SDL2_image, SDL2_mixer, SDL2_ttf and SDL2_net."
 homepage "https://github.com/DerelictOrg/DerelictSDL2"
 authors "Mike Parker"
@@ -8,7 +8,7 @@ targetName "DerelictSDL2"
 
 /* This is needed even when compiling the static binding,
    as some modules require derelict.util.system on the import path */
-dependency "derelict-util" version="~>3.0.0-beta.1"
+dependency "derelict-util" version=">=3.0.0"
 
 configuration "derelict-sdl2-dynamic" {
     excludedSourceFiles "source/derelict/sdl2/internal/*_static.d"

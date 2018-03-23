@@ -682,7 +682,10 @@ __gshared {
     da_SDL_DelEventWatch SDL_DelEventWatch;
     da_SDL_FilterEvents SDL_FilterEvents;
     da_SDL_EventState SDL_EventState;
-    da_SDL_RegisterEvents SDL_RegisterEvents;
+    da_SDL_RegisterEvents SDL_RegisterEvents;    
+
+    da_SDL_GetBasePath SDL_GetBasePath;
+    da_SDL_GetPrefPath SDL_GetPrefPath;
 
     da_SDL_GetBasePath SDL_GetBasePath;
     da_SDL_GetPrefPath SDL_GetPrefPath;
@@ -1115,12 +1118,12 @@ __gshared {
     da_SDL_GL_GetSwapInterval SDL_GL_GetSwapInterval;
     da_SDL_GL_SwapWindow SDL_GL_SwapWindow;
     da_SDL_GL_DeleteContext SDL_GL_DeleteContext;
-
     da_SDL_Vulkan_LoadLibrary SDL_Vulkan_LoadLibrary;
     da_SDL_Vulkan_GetVkGetInstanceProcAddr SDL_Vulkan_GetVkGetInstanceProcAddr;
     da_SDL_Vulkan_UnloadLibrary SDL_Vulkan_UnloadLibrary;
     da_SDL_Vulkan_GetInstanceExtensions SDL_Vulkan_GetInstanceExtensions;
     da_SDL_Vulkan_CreateSurface SDL_Vulkan_CreateSurface;
     da_SDL_Vulkan_GetDrawableSize SDL_Vulkan_GetDrawableSize;
+
 }
 
